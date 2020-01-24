@@ -2,29 +2,30 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all 👋 I'm Saad",
+  title: "Je suis Valentin!",
   subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+    "Un développeur Full Stack passioné par le devops et le développement Web et Mobile depuis des années et réalisant des applications avec Vuejs, Django, Laravel et plein d'autres frameworks modernes",
+  resumeLink: "https://dsm.vleroy.fr/d/f/webapi/entry.cgi/CV%20-%20IT%20-%202.pdf?api=SYNO.SynologyDrive.Files&method=download&version=2&files=%5B%22id%3A524482898357697535%22%5D&force_download=false&_dc=1579768823124"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/vleroy",
+  linkedin: "https://www.linkedin.com/in/vleroy/",
+  gmail: "contact@vleroy.fr",
+  gitlab: null,
+  facebook: null
 };
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "Mes compétences",
+  subTitle: "FAN DES TECHNOLOGIES MODERNES, JE VEUX TOUJOURS ETRE A JOUR !",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    "⚡ Développement d'applications Web et Mobile modernes avec Vuejs",
+    "⚡ Développement de Progressive Web Applications ( PWA ) pour une expérience Mobile améliorée",
+    "⚡ Développement d'API avec Django, Nodejs et Laravel",
+    "⚡ Déploiement de solutions avec Docker, Docker compose ou encore Kubernetes"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
@@ -32,57 +33,61 @@ const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Yarn",
+      fontAwesomeClassname: "fab fa-yarn"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "HTML 5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS 3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "SASS",
+      fontAwesomeClassname: "fab fa-sass"
+    },
   ]
 };
 
@@ -90,22 +95,26 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
+  githubConvertedToken: "MTRjMDdjYzVjOGQ5Mzc1ODk5OGFjYzk1MjU4NWNkODA1MzAwMjBlOA==",
+  githubUserName: "vleroy"
 };
 
 const bigProjects = {
   /* Some Big Projects You have worked with your company */
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
+  title: "Projets importants",
+  subtitle: "MES CONTRIBUTIONS LORS DE MES EXPERIENCES PRECEDENTES",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
+      image: "images/virtual_bigicone.svg",
+      link: "https://www.datexim.com/fr/virtualmultihead-2/"
     },
     {
-      image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
-      link: "http://nextu.se/"
+      image: "images/shf.png",
+      link: "https://shf.eu"
+    },
+    {
+      image: "https://my.groomy-app.com/img/logo.9b0f7479.svg",
+      link: "https://www.groomy-app.com"
     }
   ]
 };
@@ -197,10 +206,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: "Me contacter ☎️",
+  subtitle: "Pour me proposer un projet, obtenir plus d'informations sur moi ou juste discuter n'hésitez pas",
+  number: "06.43.09.39.89",
+  email_address: "contact@vleroy.fr"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };

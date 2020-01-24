@@ -16,7 +16,7 @@ export default function Skills() {
           <SoftwareSkill />
           <div>
             {skillsSection.skills.map(skills => {
-              return <p className="subTitle skills-text">{skills}</p>;
+              return <p key={skills} className="subTitle skills-text">{skills}</p>;
             })}
           </div>
         </div>

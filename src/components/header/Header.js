@@ -5,9 +5,9 @@ function Header() {
   return (
     <div>
       <header className="header">
-        <a href="" className="logo">
+        <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">Saad Pasta</span>
+          <span className="logo-name">Valentin Leroy</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -16,25 +16,16 @@ function Header() {
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">Compétences</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projets</a>
           </li>
           <li>
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
-          <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Me contacter</a>
           </li>
         </ul>
       </header>
