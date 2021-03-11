@@ -29,24 +29,22 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
+            user(login: "${openSource.githubUserName}") {
+              pinnedItems(first: 6, types: REPOSITORY) {
+                nodes {
+                  ... on Repository {
+                    nameWithOwner
+                    description
+                    forkCount
+                    stargazers {
+                      totalCount
+                    }
+                    url
+                    id
+                    diskUsage
+                    primaryLanguage {
+                      name
+                      color
                     }
                   }
                 }
@@ -56,7 +54,7 @@ export default function Projects() {
         `
       })
       .then(result => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+        setrepoFunction(result.data.user.pinnedItems.nodes);
       });
   }
 
@@ -69,7 +67,7 @@ export default function Projects() {
       <h1 className="project-title">Projets Open Source</h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {
-          return <GithubRepoCard repo={v} key={v.node.id} />;
+          return <GithubRepoCard repo={v} key={v.id} />;
         })}
       </div>
       <Button text={"Voir tous les projets"} className="project-button" href={`https://github.com/${openSource.githubUserName}`} newTab={true} />
