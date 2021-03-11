@@ -3,6 +3,7 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
+import ManOnTableImg from "../../assests/images/manOnTable.svg";
 
 export default function Greeting() {
   return (
@@ -20,7 +21,7 @@ export default function Greeting() {
           </div>
         </div>
         <div className="greeting-image-div">
-          <img alt="saad sitting on table" src={require("../../assests/images/manOnTable.svg")}></img>
+          <img alt="saad sitting on table" src={ManOnTableImg}></img>
         </div>
       </div>
     </div>
