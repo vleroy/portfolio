@@ -4,7 +4,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Je suis Valentin!",
   subTitle:
-    "Un développeur Full Stack passioné par le devops et le développement Web et Mobile depuis des années et réalisant des applications avec Vuejs, Django, Laravel et plein d'autres frameworks modernes",
+    "Un développeur Full Stack indépendant passioné par le DevOps et le développement Web et Mobile depuis des années et réalisant des applications avec Vuejs, Django, Laravel et plein d'autres frameworks modernes",
   resumeLink: "https://dsm.vleroy.fr/d/f/webapi/entry.cgi/CV%20-%20IT%20-%202.pdf?api=SYNO.SynologyDrive.Files&method=download&version=2&files=%5B%22id%3A524482898357697535%22%5D&force_download=false&_dc=1579768823124"
 };
 
@@ -207,7 +207,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: "Me contacter ☎️",
-  subtitle: "Pour me proposer un projet, obtenir plus d'informations sur moi ou juste discuter n'hésitez pas",
+  subtitle: "Pour me proposer une mission, obtenir plus d'informations sur moi ou juste discuter n'hésitez pas",
   number: "06.43.09.39.89",
   email_address: "contact@vleroy.fr"
 };
