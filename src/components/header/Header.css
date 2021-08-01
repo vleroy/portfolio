@@ -37,6 +37,9 @@
   margin-top: 10px;
   line-height: normal;
 }
+.header .logo img {
+  max-height: 150px;
+}
 .header .logo-name {
   font-family: 'Agustina Regular';
   font-weight: bold;

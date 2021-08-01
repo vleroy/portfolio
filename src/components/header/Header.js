@@ -1,15 +1,14 @@
 import React from "react";
 import "./Header.css";
+import LogoImg from "../../assests/images/logo.png"
 
 function Header() {
   return (
     <div>
       <header className="header">
-        <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">Valentin Leroy</span>
-          <span className="grey-color">/&gt;</span>
-        </a>
+        <div className="logo">
+          <img alt="Logo" src={LogoImg}></img>
+        </div>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
