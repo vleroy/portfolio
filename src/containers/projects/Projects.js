@@ -10,10 +10,7 @@ export default function Projects() {
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
-    getRepoData();
-  });
-
-  function getRepoData() {
+    // Load pinned repositories from Github API
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
       request: operation => {
@@ -56,7 +53,8 @@ export default function Projects() {
       .then(result => {
         setrepoFunction(result.data.user.pinnedItems.nodes);
       });
-  }
+
+  }, []);
 
   function setrepoFunction(array) {
     setrepo(array);
